@@ -1,0 +1,97 @@
+.navbar {
+    background: #2c3e50 !important;
+}
+
+.ace-nav>li.light-blue>a {
+    background-color: #34495e !important;
+}
+
+.btn-success,
+.btn-success:focus {
+    background-color: #2980b9!important;
+    border-color: #2980b9 !important;
+}
+
+.btn-success:hover,
+.btn-success:active {
+	background-color: #236d9d!important;
+}
+
+.btn-info,
+.btn-info:focus {
+    background-color: #f1c40f!important;
+    border-color: #f1c40f !important;
+}
+
+.btn-info:hover,
+.btn-info:active {
+	background-color: #e2b70d!important;
+}
+
+.btn-warning,
+.btn-warning:focus {
+    background-color: #27ae60!important;
+    border-color: #27ae60 !important;
+}
+
+.btn-warning:hover,
+.btn-warning:active {
+	background-color: #24a058!important;
+}
+
+.btn-danger,
+.btn-danger:focus {
+    background-color: #e74c3c!important;
+    border-color: #e74c3c !important;
+}
+
+.btn-danger:hover,
+.btn-danger:active {
+	background-color: #e53e2d!important;
+}
+
+.sidebar .sidebar-shortcuts-large>.btn {
+    width: 150px!important;
+}
+
+.container-loading-image {
+    position: relative;
+}
+
+.loading-image {
+    position: absolute;
+    left: 90px;
+}
+
+.loading-image-btn {
+    padding: 20px;
+}
+
+.loading-image-btn div {
+    padding: 5px
+}
+
+/*==== Danh sach hoc vien ====*/
+
+.title-list-student h2 {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+
+.card-header-student {
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hydrated {
+    visibility: inherit;
+    vertical-align: -0.3rem;
+    font-size: 1.2rem;
+    margin-right: 5px;
+}

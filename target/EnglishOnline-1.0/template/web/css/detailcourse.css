@@ -1,0 +1,315 @@
+.full-background {
+    background-color: #2c3e50;
+    padding-top: 75px;
+}
+
+.full-width-other {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.content-cs-other {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 60px 0;
+    color: #fff;
+}
+
+.content-cs-detail-other {
+    line-height: 1.8rem;
+    max-width: 750px;
+    padding-right: 40px;
+}
+
+.content-cs-title-other {
+    font-size: 22px;
+    line-height: 3.8rem;
+}
+
+.content-cs-title-other h1{
+    font-weight: 900;
+}
+
+.content-cs-shortDescription-other {
+    font-size: 22px;
+    line-height: 27px;
+    padding-bottom: 5px;
+}
+
+.content-cs-span-other {
+    display: flex;
+}
+
+.content-cs-teacher-other {
+    margin-right: 30px;
+}
+
+.content-cs-image-around {
+    width: 249px;
+    height: 168px;
+    border-radius: 3px;
+    background-color: #fff;
+    position: relative;
+    margin-top: 15px;
+}
+
+.content-cs-image-other {
+    background-color: #1e1e1c;
+    border-radius: 4px;
+    border: 1px solid #dcdacb;
+    width: 240px;
+    height: 160px;
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    margin-right: 1.4rem;
+}
+
+/* ==== */
+.lesson-title p {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 3.8rem;
+}
+
+.les-con {
+    min-height: 250px;
+    background-color: rgb(248, 246, 246);
+    border-radius: 6px;
+    border: 1px solid rgb(233, 218, 218);
+    margin-bottom: 40px;
+}
+
+.lesson-card {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.lesson-card ion-icon,
+span.lesson-card-notice {
+    position: relative;
+}
+
+span.lesson-card-notice {
+    top: 120px;
+    left: 300px;
+    color: #9c9c9c;
+    font-size: 18px;
+}
+
+.icon-alert {
+    top: 119px;
+    left: 291px;
+    font-size: 29px;
+    color: #9c9c9c;
+}
+
+.icon-lib {
+    top: 84px;
+    left: 41px;
+    font-size: 36px;
+    margin-right: 11px;
+    color: #737373;
+}
+
+.col-md-2 {
+    margin: 20px 16px;
+}
+
+.toggle > label {
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+    background: rgb(231, 231, 231);
+    border-left: 3px solid #CCC;
+    border-radius: 5px;
+    color: #CCC;
+    display: block;
+    font-size: 1.1em;
+    min-height: 20px;
+    padding: 12px 20px 12px 10px;
+    position: relative;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.toggle > label:hover {
+    background: rgb(226, 226, 226);
+}
+
+.toggle > label:before {
+    border: 6px solid transparent;
+    border-left-color: inherit;
+    content: '';
+    margin-top: -6px;
+    position: absolute;
+    right: 4px;
+    top: 50%;
+}
+
+html .toggle-primary .toggle label {
+    color: #34495e;
+    border-left-color: #34495e;
+    border-right-color: #34495e;
+}
+
+html .toggle-primary .toggle label a {
+    color: #34495e;
+}
+
+/* ==== Khóa học của tôi ==== */
+
+.header-container {
+    height: 140px;
+    color: #fff;
+}
+
+.header-bar,
+.nav-container {
+    width: 100%;
+}
+
+.header-bar {
+    padding: 40px 0 15px 0;
+    font-size: 18px;
+}
+
+.header-bar h1 {
+    font-size: 2rem;
+}
+
+.nav-slide {
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-slide a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 6px;
+    border-bottom: 6px solid rgba(255, 255, 255, 0.87);
+}
+
+.list-course-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.card-course {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    position: relative;
+    width: 230px;
+}
+
+.card-course a {
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+}
+
+.card-course:before,
+.card-course::after {
+    box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+    opacity: 1;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: .2s ease;
+    pointer-events: none;
+}
+
+.card-course:hover:before {
+    opacity: 0;
+}
+
+.card-course:hover:after {
+    opacity: 1;
+}
+
+.card-course:hover img {
+    opacity: 0.8;
+    transform: scale(1.03);
+}
+
+.card-course:hover img,
+.card-course:hover:before,
+.card-course:hover:after {
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.card-course:after {
+    opacity: 0;
+    box-shadow: 0 2px 8px 2px rgba(20,23,28,.15);
+}
+
+.card-image {
+    height: 129px;
+    width: 230px;
+    display: block;
+    position: relative;
+    background: #29303b;
+    overflow: hidden;
+}
+
+.card-details {
+    padding: 12px 15px;
+    display: block;
+}
+
+.details-name,
+.details-short {
+    display: block!important;
+    display: -webkit-box!important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.details-name {
+    font-size: 15px;
+    height: 42px;
+}
+
+.details-short {
+    margin-top: 15px;
+    font-size: 13px;
+    font-style: italic;
+    min-height: 36px;
+}
+
+.details-bottom {
+    height: 30px;
+    margin-top: 10px;
+}
+
+.details__progress {
+    background-color: rgba(41,48,59,.25);
+    display: block;
+    height: 2px;
+    margin-bottom: 4px;
+}
+
+.progress__bar {
+    display: inherit;
+    height: inherit;
+    background-color: #007791;
+}
+
+.details__start-course {
+    color: #e67e22;
+    font-weight: bold;
+}

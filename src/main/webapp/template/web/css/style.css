@@ -1,0 +1,344 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+.bg-primary {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(background2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.text-white-50 {
+  color: #e3e3e3 !important;
+}
+
+.bg-dark {
+    background-color: rgba(44, 62, 80, 0.96) !important;
+}
+
+.btn-primary,
+.btn-primary:focus {
+  background-color: #377dff!important;
+  border-color: #377dff;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: #1164ff!important;
+  border-color: #045cff;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+  background-color: #045cff!important;
+}
+
+.mt-5 {
+  font-size: 2.8rem;
+  margin-top: 0.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.main-title {
+    top: -6%;
+}
+
+/* -------- STICKY -------- */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(43, 115, 252, 0.97);
+    box-shadow: 0 2px 2px #377dff;
+    z-index: 9999;
+}
+
+.sticky .navbar-brand,
+.sticky .nav-link,
+.sticky #inpt_search,
+.sticky .dropdown-content a {
+    color: #e3e3e3!important;
+}
+
+.sticky .search {
+    border: 2px solid #e3e3e3;
+}
+
+.sticky .search:after {
+    background: #e3e3e3;
+}
+
+.sticky .dropdown-content {
+    background-color: rgba(43, 115, 252, 0.97);
+}
+
+.sticky .dropdown-content a:hover {
+    background-color: rgba(65, 129, 255, 0.97);
+}
+
+/* ------ card ----- */
+
+.card-title {
+    display: block;
+    height: 45px;
+    display: -webkit-box!important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.transition-3d-hover:focus,
+.transition-3d-hover:hover {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+}
+
+.transition-3d-hover {
+    transition: all .2s ease-in-out;
+}
+
+/* ---------------- */
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #377dff;
+    border: 1px solid #377dff;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #377dff;
+    color: #377dff;
+}
+
+.btn-footer {
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: .0625rem solid transparent;
+    padding: .75rem 1rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    border-radius: .3125rem;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+}
+
+.btn-footer:link,
+.btn-footer:visited {
+    background-color: #f7faff;
+    border: 1px solid #f7faff;
+    color: #1164ff;
+}
+
+.btn-footer:hover,
+.btn-footer:active {
+    box-shadow: 0 4px 11px rgba(247,250,255,.35);
+    background-color: #f7faff;
+    border-color: #f7faff;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #1164ff;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #045cff;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #045cff;
+    color: #fff;
+}
+
+/*====== feedback ======*/
+.feedback-title {
+    width: 100%;
+}
+
+.feedback-title h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.feedback-title h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.card-lg-gutters-2 .card {
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
+
+.card {
+    border-width: 0;
+    box-shadow: 0 12px 15px rgba(0, 33, 66, 0.1);
+    border-radius: .3125rem;
+}
+
+.card-body {
+    min-height: 1px;
+    padding: 1.5rem;
+}
+
+.card-footer:last-child {
+    border-radius: 0 0 .25rem .25rem;
+}
+.pl-5, .px-5 {
+    padding-left: 2rem!important;
+}
+.pb-5, .py-5 {
+    padding-bottom: 2rem!important;
+}
+
+.pr-5, .px-5 {
+    padding-right: 2rem!important;
+}
+.pt-0, .py-0 {
+    padding-top: 0!important;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-item .nav-link {
+    top: 5px;
+    position: relative;
+}
+
+.nav-link .avatar {
+    width: 39px;
+    height: 0px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .3rem;
+}
+
+img.user-img-header {
+    border-radius: 50%;
+    position: relative;
+    top: -8px;
+}
+
+span.dropdown-name {
+    top: -5px;
+    position: relative;
+}
+
+.nav-link ion-icon.md.hydrated {
+    font-size: 17px;
+    color: #ececec;
+}
+
+.avatar-circle {
+    border-radius: 50%;
+}
+
+.avatar {
+    position: relative;
+    display: inline-block;
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: .3125rem;
+}
+
+.avatar-circle .avatar-img {
+    border-radius: 50%;
+}
+
+.avatar-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: .3125rem;
+}
+
+h4 {
+    font-size: 1.125rem;
+}
+
+.text-body {
+    color: #677788!important;
+}
+
+.shadow-primary-lg {
+    box-shadow: 0 0 50px rgba(55,125,255,.4)!important;
+}
+
+.bg-primary-fb {
+    background-color: #377dff!important;
+}
+
+.space-2 {
+    padding-top: 4rem!important;
+    padding-bottom: 4rem!important;
+}
+
+.card-body ion-icon {
+    font-size: 17px;
+    color: #f5ca99;
+}
+
+/*======= before footer =======*/
+.bg-img-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(ft.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    background-attachment: fixed;
+}
+
+.bg-img-hero .container .mb-5 {
+    margin-bottom: 2rem!important;
+}
+
+/*========= footer =========*/
+.footer-ms {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.footer-ms--child {
+    position: relative;
+}
+
+.footer-ms--child a,
+.footer-ms--child p {
+    position: relative;
+    top: 10px;
+}
